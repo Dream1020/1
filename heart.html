@@ -76,7 +76,7 @@
  
 
   <body>
-    <div class="box"></div>  <!--爱心中间的文字-->
+    <div class="box">h.h</div>  <!--爱心中间的文字-->
 
     <div id="test1">
       
@@ -88,7 +88,7 @@
             st =love.substr(0,j+1);
             loveshe.innerHTML = st+'🐳'; 
             j++;
-            var id=setTimeout("show()",);//时间延迟
+            var id=setTimeout("show()",300);//时间延迟
             if(j==love.length){
             clearTimeout(id);
             }
@@ -96,15 +96,13 @@
 	   </script>
   </script>
 	   <body onLoad="show()">
-		<div id="txt"></div>
-     </script>
      </div>
-
-   
-
-    <div id="jsi-cherry-container" class="container">
-      <audio autoplay="autoplay" loop="loop" preload="auto"
-      src="http://music.163.com/song/media/outer/url?id=865392556.mp3">       
+     <!-- 音乐 -->
+      <!-- <audio autoplay="autoplay" loop="loop" preload="auto"
+      src="http://music.163.com/song/media/outer/url?id=865392556.mp3"> -->
+      <iframe frameborder="no"  marginwidth="0" marginheight="0" width=330 height=86 autoplay="autoplay" 
+      src="https://music.163.com/outchain/player?type=2&id=865392556&auto=1&height=66"
+      style="bottom: 10%;right: 3%;position:absolute;z-index:2;"></iframe>       
     </audio>
       <img class="img" src="./123.png" alt="" />
       <canvas id="board" class="container"> </canvas>
